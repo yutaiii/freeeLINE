@@ -1,0 +1,110 @@
+.line_header{
+  width: 100%;
+  height: 80px;
+  background-color: #47476b;
+}
+
+.line_logo{
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: #8585ad;
+  padding-top: 10px;
+}
+
+.line_config{
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.line_functionChangeButton{
+  width: 100%;
+}
+
+.line_functionBtn1{
+  float: left;
+  margin-left: 400px;
+}
+
+.line_functionBtn2{
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.line_functionBtn3{
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.line_functionBtn4{
+  float: left;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.line_talkMain{
+  width: 100%;
+}
+
+.line_searchBox{
+  width: 100%;
+  height: 50px;
+  background-color: #cccccc;
+}
+
+.line_searchInput{
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 90%;
+  height: 24px;
+  border-radius: 2px;
+  border: 1px solid #a6a6a6;
+  padding-left: 30px;
+}
+
+.line_searchLogo{
+  z-index: 2;
+  margin-left: 100px;
+}
+
+.line_talkBox{
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+.line_picPreson{
+  width: 80px;
+  height: 80px;
+  margin-left: 20px;
+  margin-right: 20px;
+  float: left;
+  border-radius:40px;
+  margin-top: 10px;
+}
+
+.line_showUserName{
+  width: 70%;
+  float: left;
+  margin-top: 20px;
+  font-size: 18px;
+  background-color: green;
+  font-weight: bolder;
+}
+
+.line_message{
+  width: 70%;
+  float: left;
+  margin-top: 10px;
+  background-color: yellow;
+  color: #999999;
+  font-size: 14px;
+}
+
+.line_sentTime{
+  float: right;
+  width: 100px;
+  background-color: blue;
+}
