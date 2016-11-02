@@ -1,11 +1,4 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-    <meta charset="UTF-8"/>
-    <link href="reset.css" rel="stylesheet" type="text/css">
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <title>LINE</title>
-  </head>
+<?php include('head.php'); ?>
   <body>
     <header class="line_header">
       <div class="line_logo">
