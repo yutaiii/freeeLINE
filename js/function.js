@@ -10,8 +10,9 @@ $(document).ready(function(){
     var passlength = password.length;
 
     if(maillength < 1 || passlength < 1){
-      $('.login_showErrorDiv').show();
+     //$('.login_showErrorDiv').show();
       $('.login_showErrorDiv').text("メールアドレスまたはパスワードを入力していません。");
+      return false;
     }
     else{
       $('.login_showErrorDiv').empty();
