@@ -221,12 +221,28 @@ html, body{
   border-bottom: 1px solid black;
 }
 
+.talkroom_talk{
+  width: 190px;
+  margin-top: 20px;
+  float: right;
+  margin-right: 20px;
+  background-color: #4dff4d;
+  border-radius: 5px;
+  padding: 10px;
+  clear: both;
+}
+
+.addPadding{
+  padding: 10px;
+}
+
 .talkroom_input{
   width: 85%;
-  height: 50px;
+  height: 48px;
   border-radius: 5px;
   margin-top: 10px;
   margin-left: 10px;
+  float: left;
 }
 
 .talkroom_submitBtn{
@@ -235,6 +251,7 @@ html, body{
   border-radius: 5px;
   margin-top: 10px;
   margin-left: 10px;
+  float: left;
 }
 
 .clearfix:after{

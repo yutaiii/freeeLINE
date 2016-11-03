@@ -74,21 +74,30 @@ $(document).ready(function(){
       $('.signup_errorConfirmPassword').empty();
     }
 
-    //signup(uname, uemail, upassword);
+  });
+  //talkroomのjs
+  $('#talkroom_submit').click(function(){
+
+    var message = $('#talkroom_message').val();
+    $('#talkroom_message').val("");
+    $('.talkroom_talkarea').append('<div class="talkroom_talk">' + message +'</div>');
+    $('.talkroom_talk').addClass("addPadding");
+    send_message(message);
+    message = "";
 
   });
 
 });
-
-// function sugnup(uname, uemail, upassword){
-//   $.ajax({
-//     type : "POST",
-//     url : "",
-//     data : {uname : uname, uemail : uemail, upassword : upassword},
-//     dataType : "text",
-//     success : function(response)
-//     {
-
-//     }
-//   });
-// }
+//talkroomのajax
+function send_message(message){
+  $.ajax({
+    type : "POST",
+    url : "talkControler.php",
+    data : {message : message},
+    dataType : "text",
+    success : function(response){
+      //alert(message);
+      //$('.talkroom_main').html(response);
+    }
+  });
+}
